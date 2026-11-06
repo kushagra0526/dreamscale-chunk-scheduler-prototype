@@ -1,0 +1,6 @@
+heldout: 100 one-minute runs, chunk H=25, hard=True
+policy      stall % p95 stall %  lag ms   rmse  req/s
+blocking      40.39       55.77     176  0.907   1.40
+prefetch      29.16       48.47     176  0.897   1.84
+adaptive      41.77       61.17       0  0.696   3.14
+hedged        28.53       46.63       0  0.550   3.81
